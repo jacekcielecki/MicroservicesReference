@@ -25,6 +25,7 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Products\MicroservicesReference.Products.Core\MicroservicesReference.Products.Core.csproj" />
     <ProjectReference Include="..\..\Users\MicroservicesReference.Users\MicroservicesReference.Users.Core.csproj" />
   </ItemGroup>
   <ItemGroup>

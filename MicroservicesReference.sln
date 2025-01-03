@@ -16,6 +16,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{DAB95B10
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesReference.Azure.Functions", "Azure\MicroservicesReference.Azure.Functions\MicroservicesReference.Azure.Functions.csproj", "{CFE05EDD-13B0-434A-A6F7-BE8C7898C9D5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{84FC5BB5-EF13-4DF1-B953-645020106E06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesReference.Products.Core", "Products\MicroservicesReference.Products.Core\MicroservicesReference.Products.Core.csproj", "{3ED4C8BB-5A87-4E6C-8389-03C99CB569A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +34,10 @@ Global
 		{CFE05EDD-13B0-434A-A6F7-BE8C7898C9D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFE05EDD-13B0-434A-A6F7-BE8C7898C9D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFE05EDD-13B0-434A-A6F7-BE8C7898C9D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ED4C8BB-5A87-4E6C-8389-03C99CB569A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ED4C8BB-5A87-4E6C-8389-03C99CB569A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ED4C8BB-5A87-4E6C-8389-03C99CB569A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ED4C8BB-5A87-4E6C-8389-03C99CB569A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,5 +45,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D90FEAC8-9628-48A5-A5FA-AFAF36E2A50D} = {9BDD739A-8A65-45FF-9B17-FC86B493E418}
 		{CFE05EDD-13B0-434A-A6F7-BE8C7898C9D5} = {DAB95B10-2F66-49E7-BD4A-15F508940CDE}
+		{3ED4C8BB-5A87-4E6C-8389-03C99CB569A3} = {84FC5BB5-EF13-4DF1-B953-645020106E06}
 	EndGlobalSection
 EndGlobal
