@@ -1,3 +1,4 @@
+using MicroservicesReference.Users.Core;
 using Microsoft.Azure.Functions.Worker.Builder;
 using Microsoft.Extensions.Hosting;
 
@@ -9,5 +10,7 @@ builder.ConfigureFunctionsWebApplication();
 // builder.Services
 //     .AddApplicationInsightsTelemetryWorkerService()
 //     .ConfigureFunctionsApplicationInsights();
+
+builder.Services.RegisterUsersModule();
 
 builder.Build().Run();
