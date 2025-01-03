@@ -5,7 +5,16 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{9BDD739A-8A65-45FF-9B17-FC86B493E418}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesReference.Users", "Users\MicroservicesReference.Users\MicroservicesReference.Users.csproj", "{D90FEAC8-9628-48A5-A5FA-AFAF36E2A50D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesReference.Users.Core", "Users\MicroservicesReference.Users\MicroservicesReference.Users.Core.csproj", "{D90FEAC8-9628-48A5-A5FA-AFAF36E2A50D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{96675C5B-6531-4C32-B26C-5B106AFAE058}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Azure", "Azure", "{DAB95B10-2F66-49E7-BD4A-15F508940CDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroservicesReference.Azure.Functions", "Azure\MicroservicesReference.Azure.Functions\MicroservicesReference.Azure.Functions.csproj", "{8C829311-EB3F-433B-81C9-6CAD6E062019}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +26,16 @@ Global
 		{D90FEAC8-9628-48A5-A5FA-AFAF36E2A50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D90FEAC8-9628-48A5-A5FA-AFAF36E2A50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D90FEAC8-9628-48A5-A5FA-AFAF36E2A50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C829311-EB3F-433B-81C9-6CAD6E062019}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C829311-EB3F-433B-81C9-6CAD6E062019}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C829311-EB3F-433B-81C9-6CAD6E062019}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C829311-EB3F-433B-81C9-6CAD6E062019}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D90FEAC8-9628-48A5-A5FA-AFAF36E2A50D} = {9BDD739A-8A65-45FF-9B17-FC86B493E418}
+		{8C829311-EB3F-433B-81C9-6CAD6E062019} = {DAB95B10-2F66-49E7-BD4A-15F508940CDE}
 	EndGlobalSection
 EndGlobal
