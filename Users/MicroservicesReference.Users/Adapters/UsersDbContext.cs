@@ -10,13 +10,6 @@ public class UsersDbContext : DbContext
     {
     }
 
-	protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-	{
-		base.OnConfiguring(optionsBuilder);
-		//optionsBuilder.UseSqlServer(");
-		//optionsBuilder.UseSqlServer(Environment.GetEnvironmentVariable("MicroservicesReference_Users_Db"));
-	}
-
 	protected override void OnModelCreating(ModelBuilder modelBuilder)
 	{
 		base.OnModelCreating(modelBuilder);
