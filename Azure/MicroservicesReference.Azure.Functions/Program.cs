@@ -1,3 +1,4 @@
+using MicroservicesReference.Products.Core;
 using MicroservicesReference.Users.Core;
 using Microsoft.Azure.Functions.Worker.Builder;
 using Microsoft.Extensions.Hosting;
@@ -11,8 +12,9 @@ builder.ConfigureFunctionsWebApplication();
 //     .AddApplicationInsightsTelemetryWorkerService()
 //     .ConfigureFunctionsApplicationInsights();
 
-Environment.SetEnvironmentVariable("MicroservicesReference_Users_Db", "Server=(localdb)\\MSSQLLocalDB;Database=MicroservicesReference_Users;Trusted_Connection=True;Encrypt=False;MultipleActiveResultSets=true;");
+Environment.SetEnvironmentVariable("MicroservicesReference_Db", "Server=(localdb)\\MSSQLLocalDB;Database=MicroservicesReference_Users;Trusted_Connection=True;Encrypt=False;MultipleActiveResultSets=true;");
 
 builder.Services.RegisterUsersModule();
+builder.Services.RegisterProductsModule();
 
 builder.Build().Run();

@@ -17,5 +17,5 @@ public class UsersDbContext : DbContext
 		modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 	}
 
-	public DbSet<User> Users { get; set; }
+	public required DbSet<User> Users { get; set; }
 }
