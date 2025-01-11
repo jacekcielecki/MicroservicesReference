@@ -3,7 +3,7 @@
 	"Values": {
 		"AzureWebJobsStorage": "UseDevelopmentStorage=true",
 		"FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
-		"test": "Server=localhost;Database=master;Trusted_Connection=True;Initial Catalog=MicroservicesReference_Db;TrustServerCertificate=true",
+		"DatabaseConnectionString": "Server=localhost;Database=master;Trusted_Connection=True;Initial Catalog=MicroservicesReference;TrustServerCertificate=true",
 		"eof": "eof"
 	},
 	"Host": {
