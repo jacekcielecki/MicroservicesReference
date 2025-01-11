@@ -10,7 +10,7 @@ public static class TypeRegister
 	public static void RegisterUsersModule(this IServiceCollection serviceCollection)
 	{
 		serviceCollection.AddDbContext<UsersDbContext>(options => 
-			options.UseSqlServer(Environment.GetEnvironmentVariable("MicroservicesReference_Users_Db")));
+			options.UseSqlServer(Environment.GetEnvironmentVariable("DatabaseConnectionString")));
         serviceCollection.AddTransient<GetUsers>();
 	}
 }

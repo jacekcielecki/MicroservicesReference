@@ -12,8 +12,6 @@ builder.ConfigureFunctionsWebApplication();
 //     .AddApplicationInsightsTelemetryWorkerService()
 //     .ConfigureFunctionsApplicationInsights();
 
-Environment.SetEnvironmentVariable("MicroservicesReference_Db", "Server=(localdb)\\MSSQLLocalDB;Database=MicroservicesReference_Users;Trusted_Connection=True;Encrypt=False;MultipleActiveResultSets=true;");
-
 builder.Services.RegisterUsersModule();
 builder.Services.RegisterProductsModule();
 
